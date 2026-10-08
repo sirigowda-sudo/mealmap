@@ -1,23 +1,64 @@
-# Getting Started with Create React App
+# 🍽️ MealMap – Hostel Food Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MealMap is a web-based hostel food management system designed to
+simplify hostel food operations and improve the management of
+meals, users, menus, feedback, grocery items and other hostel
+services.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- User authentication
+- Dashboard
+- User management
+- Daily menu management
+- Dish of the day
+- Grocery management
+- Lost and Found
+- Reviews and feedback
+- Event order management
+- Quote management
+- Quick meal/service overview
+- User profile management
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Material UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### State Management
+- Redux
+- Redux Saga
 
-### `npm test`
+### API
+- Axios
+- REST APIs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Other Libraries
+- Chart.js
+- React Router
+- CKEditor
+- jsPDF
+- XLSX
+
+## 📁 Project Structure
+
+```text
+mealmap/
+├── public/
+├── src/
+│   ├── authentication/
+│   ├── components/
+│   ├── config/
+│   ├── global/
+│   ├── page-restriction/
+│   └── services/
+├── package.json
+├── package-lock.json
+└── README.md
 
 ### `npm run build`
 
